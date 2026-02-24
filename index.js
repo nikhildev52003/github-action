@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
   res.json({
     quote: quotes[Math.floor(Math.random() * quotes.length)]
   });
-  console.log("CI/CD test deploy");
+ console.log("testing github actions again");;
 });
 
 app.listen(3000, () => {
