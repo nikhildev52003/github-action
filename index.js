@@ -1,4 +1,3 @@
-
 const express = require("express");
 
 const app = express();
@@ -13,8 +12,9 @@ app.get("/", (req, res) => {
   res.json({
     quote: quotes[Math.floor(Math.random() * quotes.length)]
   });
- console.log("testing github actions again");;
 });
+
+console.log("GitHub Actions CI/CD working"); 
 
 app.listen(3000, () => {
   console.log("Server running on port 3000");
