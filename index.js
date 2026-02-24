@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
   });
 });
 
-console.log("GitHub Actions CI/CD working"); 
+console.log("CI/CD TEST SUCCESS");
 
 app.listen(3000, () => {
   console.log("Server running on port 3000");
